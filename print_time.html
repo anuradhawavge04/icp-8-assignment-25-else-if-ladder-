@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        //Taking input from user and displaying time using boundry cases.
+      //Taking input from user and displaying time using boundry cases.
 
-        const time = parseInt(prompt("Enter a time:"));
+      const time = parseInt(prompt("Enter a time:"));
 
-        if(time>=6 && time<=12){
-           document.write("Good Morning.....⛅");
-        }
-        else if(time>=12 && time<=3){
-            document.write("Good Afternoon.....☀");
-        }
-        else if(time>=3 && time<=5){
-            document.write("Good Evening.....🍵")
-        }
-        else{
-            document.write("Invalid Day.....😌")
-        }
-
+      if (time >= 6 && time <= 12) {
+        document.write("Good Morning.....⛅");
+      } else if (time >= 12 && time <= 3) {
+        document.write("Good Afternoon.....☀");
+      } else if (time >= 3 && time <= 5) {
+        document.write("Good Evening.....🍵");
+      } else {
+        document.write("Invalid Day.....😌");
+      }
     </script>
-</body>
+  </body>
 </html>
